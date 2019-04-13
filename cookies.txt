@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+ds-bluewhale.co.kr	TRUE	/	FALSE	1999999999	PHPSESSID	rms33mjv66evfetbili8ki3m23
+ds-bluewhale.co.kr	TRUE	/	FALSE	1999999999	2a0d2363701f23f8a75028924a3af643	MjIwLjEyNy4xODguMTIw
+ds-bluewhale.co.kr	TRUE	/	FALSE	1999999999	e1192aefb64683cc97abb83c71057733	bmV3cw%3D%3D
+
