@@ -1,0 +1,33 @@
+
+
+.attecs {
+	font-size:16px;
+	font-weight:normal;
+	letter-spacing:-1px;
+	word-spacing:-1px;
+	color:#666;
+	line-height:22px;
+	padding-bottom:10px;
+}
+.attecs span {color:#333;}
+.attecs strong {
+	color: #CC0000;
+	font-weight: 600;
+}
+.attecstitle {
+	font-size:22px;
+	letter-spacing:-1px;
+	word-spacing:-1px;
+	color:#333;
+	padding-top:30px;
+}
+.attecstxtarea {border:1px solid #ddd;padding:10px;height:150px;width:713px;margin:5px 0;color:#666;resize:none;}
+
+#pressnews {font-size:14px; line-height:20px;}
+#pressnews a:hover {
+	color: #CC3300;
+	text-decoration: underline;	
+}
+
+
+/*서브 끝*/

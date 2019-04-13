@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+
+<!-- Mirrored from ds-bluewhale.co.kr/board/bbs/login.php?wr_id=33&url=http%3A%2F%2Fds-bluewhale.co.kr%2Fboard%2Fbbs%2Fboard.php%3Fbo_table%3Dnews%26amp%3Bwr_id%3D33 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Apr 2019 09:12:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="X-UA-Compatible" content="IE=10,chrome=1">
+<title>로그인 | 그누보드5</title>
+<link rel="stylesheet" href="../theme/basic/css/default0d2a.css?ver=161020">
+<link rel="stylesheet" href="../skin/member/basic/style0d2a.css?ver=161020">
+<!--[if lte IE 8]>
+<script src="http://ds-bluewhale.co.kr/board/js/html5.js"></script>
+<![endif]-->
+<script>
+// 자바스크립트에서 사용하는 전역변수 선언
+var g5_url       = "../index.html";
+var g5_bbs_url   = "index.html";
+var g5_is_member = "";
+var g5_is_admin  = "";
+var g5_is_mobile = "";
+var g5_bo_table  = "";
+var g5_sca       = "";
+var g5_editor    = "";
+var g5_cookie_domain = "";
+</script>
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script src="../js/jquery.menu0d2a.js?ver=161020"></script>
+<script src="../js/common0d2a.js?ver=161020"></script>
+<script src="../js/wrest0d2a.js?ver=161020"></script>
+</head>
+<body>
+
+
+<style>
+.ed{font-family: NanumGothic;width:300px; height:11px; border:0 none;padding:15px;font-size:15px;color:#333333;vertical-align:middle;outline: none;}
+
+</style>
+
+<body bgcolor="#f5f6f7">
+<!-- 로그인 시작 { -->
+<div id="mb_login" class="mbskin">
+    <h1>로그인</h1>
+
+    
+    
+   
+<form name="flogin" action="http://ds-bluewhale.co.kr/board/bbs/login_check.php" onSubmit="return flogin_submit(this);" method="post">
+<input type="hidden" name="url" value="http%3A%2F%2Fds-bluewhale.co.kr%2Fboard%2Fbbs%2Fboard.php%3Fbo_table%3Dnews%26amp%3Bwr_id%3D33">
+
+
+<div style="background: url(../skin/member/basic/img/bb_login.jpg); width:1000px; height:690px; position:absolute; left:50%; margin-left:-500px; top:0px;">
+
+
+<div style="position:absolute; top:273px; left:285px; background-color:#000000;"><input type="text" name="mb_id" id="login_id" required class="ed" size="20" maxLength="20"></div>
+                  
+<div style="position:absolute; top:338px; left:285px; background-color:#000000;"><input type="password" name="mb_password" id="login_pw" required class="ed" size="20" maxLength="20"></div>
+
+<div style="position:absolute; top:397px; left:270px;"><INPUT type="image" value="로그인" src="../skin/member/basic/img/btn_login.jpg" border=0></div>
+
+<div style="position:absolute; top:570px; left:399px;"></div>
+
+</div> 
+                   
+
+</form>
+
+
+</div>
+
+</body>
+
+<script>
+$(function(){
+    $("#login_auto_login").click(function(){
+        if (this.checked) {
+            this.checked = confirm("자동로그인을 사용하시면 다음부터 회원아이디와 비밀번호를 입력하실 필요가 없습니다.\n\n공공장소에서는 개인정보가 유출될 수 있으니 사용을 자제하여 주십시오.\n\n자동로그인을 사용하시겠습니까?");
+        }
+    });
+});
+
+function flogin_submit(f)
+{
+    return true;
+}
+</script>
+<!-- } 로그인 끝 -->
+
+
+
+
+
+<!-- ie6,7에서 사이드뷰가 게시판 목록에서 아래 사이드뷰에 가려지는 현상 수정 -->
+<!--[if lte IE 7]>
+<script>
+$(function() {
+    var $sv_use = $(".sv_use");
+    var count = $sv_use.length;
+
+    $sv_use.each(function() {
+        $(this).css("z-index", count);
+        $(this).css("position", "relative");
+        count = count - 1;
+    });
+});
+</script>
+<![endif]-->
+
+</body>
+
+<!-- Mirrored from ds-bluewhale.co.kr/board/bbs/login.php?wr_id=33&url=http%3A%2F%2Fds-bluewhale.co.kr%2Fboard%2Fbbs%2Fboard.php%3Fbo_table%3Dnews%26amp%3Bwr_id%3D33 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Apr 2019 09:12:45 GMT -->
+</html>

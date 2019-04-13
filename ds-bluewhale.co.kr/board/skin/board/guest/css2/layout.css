@@ -1,0 +1,56 @@
+#wrap {width:100%;height:100%;min-width:980px;margin:0 auto;}
+
+#top-wrap {width:100%;height:97px;border-bottom:3px solid #83603e;position:relative;z-index:1;}
+#top {width:980px;margin:0 auto;position:relative;}
+#top #logo {position:absolute;top:19px;left:0;}
+#top #logo img {display:block;}
+#top #tnb {position:absolute;top:13px;right:0;}
+#top #tnb li {float:left;}
+#top #tnb .bar {float:left;width:1px;height:9px;background:#b2b2b2;text-indent:-9999px;margin:3px 10px 0 10px;}
+#top #tnb a {font-family:나눔고딕,NanumGothic,nanum,'맑은 고딕','Malgun Gothic';}
+#top #gnb {position:absolute;top:50px;right:0;}
+#top #gnb img {display:block;margin:0 auto;}
+#top #gnb li {float:left;}
+#top #gnb .bar {width:3px;height:10px;text-indent:-9999px;background:url(../images/menu-bar.html) no-repeat;margin-top:3px;}
+#top #gnb #gnb1 {width:137px;}
+#top #gnb #gnb2 {width:134px;}
+#top #gnb #gnb3 {width:137px;}
+#top #gnb #gnb4 {width:132px;}
+#top #gnb #gnb5 {width:138px;}
+#top #gnb > li > a {display:block;float:left;text-align:center;width:100%;height:39px;}
+#top #gnb > li > .over,
+#top #gnb > li > .active,
+#top #gnb > li > a:hover {border-bottom:8px solid #523011;}
+
+#top #snb {width:100%;height:203px;position:absolute;top:97px;left:0;background:url(../images/smenu-bg.html) no-repeat;display:none;}
+#top #snb #snb1 {margin-left:290px;width:138px;}
+#top #snb #snb2 {width:138px;}
+#top #snb #snb3 {width:138px;}
+#top #snb #snb4 {width:137px;}
+#top #snb #snb5 {}
+#top #snb > ul {padding-top:6px;float:left;height:197px;}
+#top #snb > ul > li {padding-top:6px;text-indent:15px;clear:both;}
+#top #snb > ul > li > a {color:#fff;font-family:'맑은 고딕','Malgun Gothic';font-size:14px;}
+#top #snb > ul > li > .active, 
+#top #snb > ul > li > a:hover {color:#fbb502;}
+#top #snb ul li ul {clear:both;padding-top:5px;}
+#top #snb ul li ul li {text-indent:31px;height:20px;}
+#top #snb ul li ul li a {color:#baaea2;}
+#top #snb ul li ul li .active,
+#top #snb ul li ul li a:hover {color:#fff;}
+
+#foot {clear:both;border-top:1px solid #d6d6d6;padding:43px 0 20px;margin:0 auto;width:980px;}
+#foot h2 {float:left;width:95px;height:35px;background:url(../images/foot-logo.html) no-repeat;text-indent:-9999px;}
+#foot #copy {float:left;margin-left:15px;width:350px;font-family:'맑은 고딕','malgun gothic';letter-spacing:-0.5px;word-spacing:-0.5px;}
+#foot #copy #copymenu a {color:#181818;}
+#foot #copy #copymenu span {color:#d9d9d9;padding:0 6px;}
+#foot #copy #copyright {color:#777;padding-top:10px;line-height:16px;font-family:'맑은 고딕','malgun gothic';}
+#foot #copyinfo {
+	float: right;
+	color: #777;
+	font-family: '맑은 고딕','malgun gothic';
+	padding-top: 40px;
+	letter-spacing: -0.5px;
+	word-spacing: -0.5px;
+}
+#foot #copyinfo strong {color:#83603e;padding-right:13px;}
